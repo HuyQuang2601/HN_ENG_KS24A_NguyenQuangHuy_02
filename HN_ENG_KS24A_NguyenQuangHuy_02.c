@@ -6,7 +6,8 @@ int main(){
 	int firstMax, secondMax;
 	int add, val;
 	int position,key,index;
-	while(1){
+	do{
+	
 	printf("\tMENU\n");
 	printf("1.Nhap so phan tu va gia tri cho mang\n");
 	printf("2.In ra gia tri cac phan tu trong mang\n");
@@ -120,11 +121,13 @@ int main(){
 		case 10:
 			break;
 		case 11:
+			printf("Thoat chuong trinh");
 			break;
-			if(chose==11){
-				break;
-			}
-	}
+	
+		}
+		
+	}while(chose!=11);
 }
-}
+
+
 
